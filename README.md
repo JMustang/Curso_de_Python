@@ -23,7 +23,7 @@ print("parâmetros")
 
 - O que e uma variável?
 - Variável e um local na memoria que nos reservamos para armazenar uma informação (um valor).
-- em python toda toda variável que criarmos tera um tipo implícito atribuído a ela.
+- em python toda toda variável que criarmos \*tera um tipo implícito atribuído a ela.
 
 - Características de variáveis
 
@@ -59,3 +59,83 @@ print (verdadeiro)
 ```
 
 - para definimos uma variável no python basta atribuímos um valor a um determinado nome.
+
+## **Nomenclatura das Variáveis.**
+
+- Ha regras para nomes de variáveis, métodos e classes
+
+- as variáveis devem se com letras menusculas e nomes compostos devem ser separados por \_ underline.
+
+- Pode ter números mas não deve iniciar com números ou carácter especial, o único aceito seria o \_ underline.
+
+EX:
+
+```py
+meu_nome_e_bem_grande = “nome”
+
+```
+
+## **Pacote/modulo**
+
+- usar nomes pequenos.
+- utilizar caracteres minúsculos.
+
+EX:
+
+```py
+- OS
+- package
+
+```
+
+## **Classes**
+
+- iniciar com letra maiúscula.
+- nomes compostos com ambas palavras em maiuscula.
+
+EX:
+
+```py
+- LetraMaiuscula
+- NomeDaClasse
+
+```
+
+## **Funções/métodos**
+
+- letras menus culas.
+- nomes compostos unidos por \_ underline
+
+EX:
+
+```py
+- utilizar_underline()
+- enviar_email()
+
+```
+
+## **Constantes.**
+
+- letras maiúsculas.
+- nomes compostos unidos por \_ underline
+
+EX:
+
+```py
+- PI
+- VALOR_MÁXIMO
+
+```
+
+## **Parâmetro de função.**
+
+- letras minusculas.
+- nomes compostos unidos por \_ underline
+
+EX:
+
+```py
+- enviar(nome_do_arquivo)
+- receber(self)
+
+```
