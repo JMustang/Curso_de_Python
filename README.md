@@ -139,3 +139,18 @@ EX:
 - receber(self)
 
 ```
+
+## **Concatenar dados**
+
+- Concatenar seria juntar dois tipos de dados diferentes.
+- Para concatenar dados em python pode ser feito
+  com o sinal de "+" ou com uma ",".
+
+EX:
+
+```py
+nome = "junior"
+print("Ola " + nome)
+# ou
+print("Ola ", nome)
+```
