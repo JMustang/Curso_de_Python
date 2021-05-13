@@ -154,3 +154,18 @@ print("Ola " + nome)
 # ou
 print("Ola ", nome)
 ```
+
+## **Entrada de dados.**
+
+- Entrada de dados utilizando input()
+
+EX:
+
+```py
+# programa de login e senha
+login = input("Digite seu login: ")
+senha = input("digite sua senha: ")
+print(login)
+print(senha)
+print("Ola ", login)
+```
