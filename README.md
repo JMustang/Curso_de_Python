@@ -169,3 +169,36 @@ print(login)
 print(senha)
 print("Ola ", login)
 ```
+
+# **Operações matemáticas**
+
+- Trabalhar com matemática no python não poderia ser mais simples.
+- A o longo dos anos a linguagem python tem sido a queridinha dos cientistas.
+
+Somar:
+
+```py
+somar = 10 +10
+print(somar)
+```
+
+subtrair:
+
+```py
+subtrair = 10 -10
+print(subtrair)
+```
+
+multiplicar :
+
+```py
+multiplicar= 10 *10
+print(multiplicar)
+```
+
+dividir:
+
+```py
+dividir = 10 /10
+print(dividir)
+```
