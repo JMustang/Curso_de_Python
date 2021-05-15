@@ -215,3 +215,19 @@ EX:
 resto = 3%2
 print(resto)
 ```
+
+# **Potenciação e radiciação**
+
+- Não seria necessário um loop para saber a potencia de um numero,
+  pois o python trás nativamente esse recurso, isso que faz essa linguagem se destacar dentre
+  outras linguagens, então se queremos saber o quadrado de um numero basta
+  informar o numero e usar o operador de potenciação.
+
+EX:
+
+```py
+# se quisermos elevar 5 ao quadrado.
+5**2
+```
+
+“\*\*” asterisco, asterisco seria mais um operador composto que utilizamos para obter a potencia de um numero.
