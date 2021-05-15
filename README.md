@@ -231,3 +231,28 @@ EX:
 ```
 
 “\*\*” asterisco, asterisco seria mais um operador composto que utilizamos para obter a potencia de um numero.
+
+# **Operadores relacionais**
+
+- Na programação e muito comum averiguar condições e assim
+  baseado em uma condição nos mudamos o fluxo do nosso programa,
+  ou seja, temos que testar o estado da variável como também dos dados que estão sendo
+  digitado pelo usuário para que possamos tomar a atitude correta todo instante,
+  vamos nos valer de vários conceitos lógicos matemáticos, trabalhando com os operadores condicionais, basicamente os operadores são divididos em duas categorias .
+  Operadores de igualdade e os operadores relacionais.
+  Toda condição logica obrigatoriamente resultara em verdadeiro ou falso (true, false).
+  (valores booleanos, condições logicas).
+
+EX:
+
+```py
+( x == y) → x igual a y.
+(x != y) → x diferente de y.
+
+Num = 100
+
+if Num =+ 100 :
+print(condição verdadeira)
+else:
+print(condição falsa)
+```
