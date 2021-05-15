@@ -202,3 +202,16 @@ dividir:
 dividir = 10 /10
 print(dividir)
 ```
+
+# **Modulo de divisão**
+
+- como obter o modulo de uma divisão?(o resto da divisão)
+- Para esses casos, temos um operador para nos auxiliar.
+- Toda vez que precisarmos obter o resto da divisão vamos utilizar o sinal de “%” porcentagem.
+
+EX:
+
+```py
+resto = 3%2
+print(resto)
+```
