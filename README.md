@@ -249,10 +249,12 @@ EX:
 ( x == y) → x igual a y.
 (x != y) → x diferente de y.
 
-Num = 100
+(5<5.1)or(5==5.1)
 
-if Num =+ 100 :
-print(condição verdadeira)
-else:
-print(condição falsa)
+'a'=='a'
+# true
+"a"=="b"
+# false
+'a'!='b'
+# true
 ```
