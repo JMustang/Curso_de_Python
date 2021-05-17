@@ -258,3 +258,55 @@ EX:
 'a'!='b'
 # true
 ```
+
+# **Tomada de decisoes**
+
+- Utilizando as tomadas de decisões para altera o
+  fluxo do programa.
+
+EX:
+
+```py
+( x == y) → x igual a y.
+(x != y) → x diferente de y.
+
+Num = 100
+
+if Num =+ 100 :
+print(condição verdadeira)
+else:
+print(condição falsa)
+```
+
+Com a instrução “if” nos podemos fazer o nosso programa ter um polco de inteligencia.
+
+EX:
+
+```py
+# Estrutura de seleção única.
+# aqui a instrução ‘if’ testa se a condição
+# entre parênteses “true” e verdadeira,
+# sendo verdadeira o bloco que esta
+# depois da instrução “if” sera executado “facaIsso()”
+
+if (true)
+	facaIsso()
+
+# Estrutura de seleção dupla.
+
+if(true)
+	facaIsso()
+else
+	facaAquilo()
+
+# estrutura de seleção múltipla
+# uma variável pode ter vários valores
+# assim podemos testar múltiplas vezes a mesma variável
+# ou seja, seria o mesmo de ter varias estruturas “if”
+# porem elas estao agrupadas de uma forma diferente
+
+switch(valor)
+	caso 1: facaIsso()
+	caso 2: facaAquilo()
+	caso 3: facaIssoEAquilo()
+```
