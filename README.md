@@ -321,3 +321,9 @@ switch(valor)
 	caso 2: facaAquilo()
 	caso 3: facaIssoEAquilo()
 ```
+
+# **Depuração**
+
+- Oque seria depuração?
+- Basicamente seria uma forma de executarmos um programar e acompanharmos a execução linha por linha a procura de bugs.
+- Por vezes empregado no intuito de descobrir erros, em outras, com a finalidade de entender o funcionamento.
