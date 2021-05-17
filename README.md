@@ -299,6 +299,17 @@ if(true)
 else
 	facaAquilo()
 
+# Outra estrutura de seleção dupla.
+# Nesse caso o programa ira testa se a primeira condição e verdadeira
+# se não for o programa ira pular para a segunda condição e
+# testa a segunda.
+
+
+if(true)
+	facaIsso()
+elif(false)
+	facaAquilo()
+
 # estrutura de seleção múltipla
 # uma variável pode ter vários valores
 # assim podemos testar múltiplas vezes a mesma variável
