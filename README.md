@@ -327,3 +327,29 @@ switch(valor)
 - Oque seria depuração?
 - Basicamente seria uma forma de executarmos um programar e acompanharmos a execução linha por linha a procura de bugs.
 - Por vezes empregado no intuito de descobrir erros, em outras, com a finalidade de entender o funcionamento.
+
+# **Operações relacionais compostas**
+
+- Existem quatro operadores relacionais.
+- com eles podemos fazer qualquer comparativo
+  então toda vez que for necessário comparar dois valores
+  basta usar um desses quatro operadores.
+
+```py
+> #maio que
+< #menor que
+>= #maior ou igual que
+<= #menor ou igual que
+```
+
+- um exemplo pratico seria.
+
+```py
+idade = int(input(‘informe sua idade’))
+	if(idade<=0):
+		print(“A sua idade não pode ser 0 ou menor do que 0!”)
+	elif(idade>150):
+			print(“A sua idade não pode ser maior que 150 anos!)
+	elif(idade<18):
+				print(“Você precisa ter mais do que 18 anos!”)
+```
