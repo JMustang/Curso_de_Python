@@ -384,3 +384,20 @@ not (2>4 or 2<4)
 
 type (2) is int
 ```
+
+# **Bloco de instruções**
+
+- Um bloco de instrução é o conjunto de funções que sera executada sequencialmente uma após a outra.
+- bloco de instruções no python simplesmente colocamos nossas instruções com o mesmo espaçamento e assim é definido um bloco de instrução no python.
+
+EX:
+
+```py
+# isso é um bloco de instrução no python
+
+if(true):
+print(“Imprime um texto”)
+```
+
+- no python não é necessário uso de delimitadores de instrução,
+- também não exite a necessidade de uso de “;” ponto e virgula.
