@@ -401,3 +401,28 @@ print(“Imprime um texto”)
 
 - no python não é necessário uso de delimitadores de instrução,
 - também não exite a necessidade de uso de “;” ponto e virgula.
+
+- Um bloco de instrução também garante uma maior segurança na manipulação das variáveis.
+- Uma variável que é criada dentro de um bloco só pode ser acessada ali dentro
+  assim se tentarmos acessar a variável fora do bloco o copilador ou ira levantar uma exceção ou ira tratar essa variável como uma variável independente que não tem relação alguma com a variável que esta dentro do bloco.
+
+EX:
+
+```py
+if(true):
+	a = 50
+
+# a variável “a” não sera impressa.
+print (a)
+```
+
+EX:
+
+```py
+a = 25
+if(true):
+	a = 50
+
+# a variável “a” sera impressa, pois a foi declarado fora do bloco de “if”.
+print (a)
+```
