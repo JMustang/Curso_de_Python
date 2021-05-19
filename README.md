@@ -353,3 +353,34 @@ idade = int(input(‘informe sua idade’))
 	elif(idade<18):
 				print(“Você precisa ter mais do que 18 anos!”)
 ```
+
+# **Operadores lógicos.**
+
+- A forma mais fácil e talvez a mais logica de testarmos
+  varias condições a o mesmo tempo seria usando instruções “if”
+  dentro de outras instruções “if” porem instruções “if” aninhadas nem sempre atendem as nossas necessidades e pode nos obrigar a duplicar código, sem contar e a legibilidade do código fica comprometida, existe a necessidade de simplificarmos as condições
+  e uma forma de fazermos isso seria utilizando os operadores lógicos.
+  A principio seria bastante simples, porem quando temos uma situação que temos que usar vários operadores uma expressão pode acabar bastante complexa, temos que buscar sempre a melhor forma de usar os
+  operadores abaixo.
+
+```py
+# and – e
+# or – ou
+# not – negação
+# is – é
+# is not – não é
+# in – esta contido
+# not in – não esta contido
+
+# exemplo pratico
+
+2<4 and 2==4
+
+2>4 or 2<4
+
+not (2>4 or 2<4)
+
+2 is 2
+
+type (2) is int
+```
