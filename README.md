@@ -452,3 +452,12 @@ def imprime(x_vezes):
 print(soma_num(a, b))
 imprime(5)
 ```
+
+## **Operadores de atribuição**
+
+- Atribuição,
+- O valor ao lado direito do operador sera atribuído a variável a esquerda do operador
+
+```py
+valor_a_esquerda = valor_a_direita
+```
