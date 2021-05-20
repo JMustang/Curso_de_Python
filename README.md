@@ -170,7 +170,7 @@ print(senha)
 print("Ola ", login)
 ```
 
-# **Operações matemáticas**
+## **Operações matemáticas**
 
 - Trabalhar com matemática no python não poderia ser mais simples.
 - A o longo dos anos a linguagem python tem sido a queridinha dos cientistas.
@@ -203,7 +203,7 @@ dividir = 10 /10
 print(dividir)
 ```
 
-# **Modulo de divisão**
+## **Modulo de divisão**
 
 - como obter o modulo de uma divisão?(o resto da divisão)
 - Para esses casos, temos um operador para nos auxiliar.
@@ -216,7 +216,7 @@ resto = 3%2
 print(resto)
 ```
 
-# **Potenciação e radiciação**
+## **Potenciação e radiciação**
 
 - Não seria necessário um loop para saber a potencia de um numero,
   pois o python trás nativamente esse recurso, isso que faz essa linguagem se destacar dentre
@@ -232,7 +232,7 @@ EX:
 
 “\*\*” asterisco, asterisco seria mais um operador composto que utilizamos para obter a potencia de um numero.
 
-# **Operadores relacionais**
+## **Operadores relacionais**
 
 - Na programação e muito comum averiguar condições e assim
   baseado em uma condição nos mudamos o fluxo do nosso programa,
@@ -259,7 +259,7 @@ EX:
 # true
 ```
 
-# **Tomada de decisoes**
+## **Tomada de decisoes**
 
 - Utilizando as tomadas de decisões para altera o
   fluxo do programa.
@@ -322,13 +322,13 @@ switch(valor)
 	caso 3: facaIssoEAquilo()
 ```
 
-# **Depuração**
+## **Depuração**
 
 - Oque seria depuração?
 - Basicamente seria uma forma de executarmos um programar e acompanharmos a execução linha por linha a procura de bugs.
 - Por vezes empregado no intuito de descobrir erros, em outras, com a finalidade de entender o funcionamento.
 
-# **Operações relacionais compostas**
+## **Operações relacionais compostas**
 
 - Existem quatro operadores relacionais.
 - com eles podemos fazer qualquer comparativo
@@ -354,7 +354,7 @@ idade = int(input(‘informe sua idade’))
 				print(“Você precisa ter mais do que 18 anos!”)
 ```
 
-# **Operadores lógicos.**
+## **Operadores lógicos.**
 
 - A forma mais fácil e talvez a mais logica de testarmos
   varias condições a o mesmo tempo seria usando instruções “if”
@@ -385,7 +385,7 @@ not (2>4 or 2<4)
 type (2) is int
 ```
 
-# **Bloco de instruções**
+## **Bloco de instruções**
 
 - Um bloco de instrução é o conjunto de funções que sera executada sequencialmente uma após a outra.
 - bloco de instruções no python simplesmente colocamos nossas instruções com o mesmo espaçamento e assim é definido um bloco de instrução no python.
@@ -425,4 +425,30 @@ if(true):
 
 # a variável “a” sera impressa, pois a foi declarado fora do bloco de “if”.
 print (a)
+```
+
+## **Escopo**
+
+- Um escopo na programação são as regiões onde uma determinada variável pode ser acessada.
+- Variáveis no cabeçalho do código são chamadas de variáveis globais,
+  pois elas podem ser acessadas dentro de qualquer bloco de instrução.
+
+EX:
+
+```py
+# Essas são variáveis globais
+# pois são declaradas fora dos blocos, no escopo global
+a = 1
+b = 2
+
+def soma_num(var1, var2):
+	s = var1 + var2
+	return
+
+def imprime(x_vezes):
+	for i in range(x_vezes):
+		print(i)
+
+print(soma_num(a, b))
+imprime(5)
 ```
