@@ -478,3 +478,17 @@ s1, s2 = “curso”, “python”
 a, b = b, a
 
 ```
+
+## **Operadores de atribuição compostos**
+
+- Esses atalhos matemáticos nos proporciona uma melhor estética do nosso código como também faz o nosso código ser executado de maneira mais rápida pois quando utilizamos esses operadores existe um processo de otimização
+
+EX:
+
+```py
++= → (x += y) = 12
+-= → (x -= y) = 6
+*= → (x *= y) = 27
+/= → (x /= y) = 3
+%= → (x %= y) = 0
+```
