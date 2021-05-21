@@ -492,3 +492,15 @@ EX:
 /= → (x /= y) = 3
 %= → (x %= y) = 0
 ```
+
+## **Atribuição condicional**
+
+- Atribuição condicional seria uma estrutura utilizada para simplificar o código, onde o valor a ser atribuído sera aquele que satisfizer a condição.
+
+EX:
+
+```py
+<variável> = <valor1> if (true) else <valor2>
+
+var = 10 if (true) else 20
+```
