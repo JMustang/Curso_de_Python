@@ -461,3 +461,20 @@ imprime(5)
 ```py
 valor_a_esquerda = valor_a_direita
 ```
+
+## **Atribuição múltipla**
+
+- Atribuição múltipla seria a capacidade de atribuir valores diferentes a variáveis distintas numa mesma instrução.
+- Grosseiramente falando, seria uma forma rápida de atribuir valores as variáveis.
+
+EX:
+
+```py
+a, b, c = 5, 7, 9
+
+s1, s2 = “curso”, “python”
+
+# Trocando valores em variáveis
+a, b = b, a
+
+```
