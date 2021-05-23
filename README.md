@@ -525,6 +525,19 @@ else:
 EX:
 
 ```py
-while (x<=10)):
+while (x<=10):
   print(x)
+```
+
+## **Laços de repetição**
+
+- Este processo se repetirá enquanto a condição for verdadeira. Quando esta for falsa, o fluxo de execução prosseguirá pela instrução seguinte ao Fim_enquanto.
+
+EX:
+
+```py
+x = 0
+while (x <= 10) :
+	print(x)
+	x += 1
 ```
