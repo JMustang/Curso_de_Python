@@ -504,3 +504,27 @@ EX:
 
 var = 10 if (true) else 20
 ```
+
+## **Iteração**
+
+- Iteração, laços condicionais, looping seria o processo de repetição onde um bloco de instrução sera executado enquanto uma condição for atendida.
+- Os laços condicionais fazem parte do tópico de controle de fluxo no estudo da linguagem de programação.
+- Seria uma forma de fazer que um bloco de instrução seja repetido enquanto uma condição for verdadeira.
+
+EX:
+
+```py
+# laço “for”
+nome = [‘alice’, ‘murilo’, ‘yoric’]
+for n in nomes:
+	print(n)
+else:
+	print(“Todos os nomes foram listados com sucesso!”)
+```
+
+EX:
+
+```py
+while (x<=10)):
+  print(x)
+```
