@@ -541,3 +541,16 @@ while (x <= 10) :
 	print(x)
 	x += 1
 ```
+
+## **While else**
+
+EX:
+
+```py
+x = 0
+while (x<10):
+	print (x)
+	x=x+1;
+else:
+	print(“else”)
+```
