@@ -554,3 +554,12 @@ while (x<10):
 else:
 	print(“else”)
 ```
+
+## **for loop**
+
+EX:
+
+```py
+for c in “palavra”:
+	print(c)
+```
