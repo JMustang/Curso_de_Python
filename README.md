@@ -563,3 +563,19 @@ EX:
 for c in “palavra”:
 	print(c)
 ```
+
+## **função range**
+
+- A função range sera usada todas as vezes que for necessário gerar uma lista que contenha uma seria de números em um intervalo determinado.
+- Na maior parte das vezes iremos usar a função “range” junto com a instrução “for” porem a função “range” não se limita somente a instrução “for”, nos podemos invocar a função “range” todas as vezes em que for preciso criar uma sequencia numérica num determinado intervalo
+
+```py
+range([start], stop[, step])
+```
+
+EX:
+
+```py
+arr = list(range(0, 10, 2))
+print(arr)
+```
