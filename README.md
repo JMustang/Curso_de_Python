@@ -579,3 +579,9 @@ EX:
 arr = list(range(0, 10, 2))
 print(arr)
 ```
+
+```py
+# Usando a função “for”
+for i in range(10, 0, 1):
+	print(i)
+```
