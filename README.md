@@ -659,3 +659,11 @@ else:
 	print(“else”
 print(“Fim”)
 ```
+
+## **Estrutura de dados – Listas**
+
+### Introdução a estrutura de dados.
+
+- Estrutura de dados seria qualquer meio utilizado para armazenar e recuperar informações.
+- A lista considerada a principal e a mãe de todas as outras estruturas.
+- Estrutura de dados mutáveis onde a ordenação natural seria estabelecido pela ordem de entrada. O ultimo item de uma lista não ordenada **SEMPRE** sera o ultimo elemento adicionado.
