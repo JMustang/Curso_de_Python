@@ -586,9 +586,9 @@ for i in range(10, 0, 1):
 	print(i)
 ```
 
-## **Instrução break**
+## **Instrução Break**
 
-- A instrução **break** interrompe a execução do laço de repetição onde esta contido.
+- A instrução **Break** interrompe a execução do laço de repetição onde esta contido.
 
 EX:
 
@@ -611,7 +611,7 @@ EX:
 
 ```py
 # exemplo pratico para ter uma noção de como seria importante
-# a função **break** em um código
+# a função **Break** em um código
 
 print(“Antes de entrar no laço”)
 for item in range(10):
@@ -619,4 +619,43 @@ for item in range(10):
 	if(item==6):
 		break
 print(“Depois de ter entrado no laço”)
+```
+
+## **Instrução Continue**
+
+- A instrução **Continue** interrompe a execução de um único ciclo. Enquanto a instrução **Break** interrompe todos os ciclos de um laço de repetição, a instrução **Continue** finaliza somente o ciclo que esta sendo executado.
+
+EX:
+
+```py
+for i in range (10):
+	if(true):
+		continue
+```
+
+EX:
+
+```py
+while(i<100):
+	i=i+1
+	if(true):
+		continue
+```
+
+EX:
+
+```py
+# exemplo pratico para ter uma noção de como seria importante
+# a função **Continue** em um código.
+
+print(“Inicio”)
+i = 10
+while(i<10):
+	i+=1
+	if(i%2==0):
+		continue
+	print(i)
+else:
+	print(“else”
+print(“Fim”)
 ```
