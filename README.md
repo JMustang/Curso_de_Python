@@ -585,3 +585,38 @@ print(arr)
 for i in range(10, 0, 1):
 	print(i)
 ```
+
+## **Instrução break**
+
+- A instrução **break** interrompe a execução do laço de repetição onde esta contido.
+
+EX:
+
+```py
+for i in range(10):
+	if(true):
+		beak
+```
+
+EX:
+
+```py
+while (i<100):
+	i=i+1
+	if(true):
+		break
+```
+
+EX:
+
+```py
+# exemplo pratico para ter uma noção de como seria importante
+# a função **break** em um código
+
+print(“Antes de entrar no laço”)
+for item in range(10):
+	print(item)
+	if(item==6):
+		break
+print(“Depois de ter entrado no laço”)
+```
