@@ -710,3 +710,8 @@ Array, não muito utilizado no python.
 
 1. Não seria possível adicionar, remover, altera elementos.
 2. Toda tupla sera um conjunto de objetos, e estes, também são imutáveis. Assim, se adicionarmos o numero 10 a posição “1” da Tupla, não sera possível atribuir outro valor na posição “1”.
+
+### SET(conjunto)
+
+- Estruturas de dados semelhante a uma lista. Um set tem como principio conter uma lista de valores diferentes.
+- Set seria uma lista sem itens repetidos.
