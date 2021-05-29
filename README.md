@@ -701,3 +701,12 @@ print(“Fim”)
 2. O indice do ultimo elemento seria o “total_de_itens -1”.
 
 Array, não muito utilizado no python.
+
+### TUPLA
+
+- Estrutura de dados que possui todas as características de uma lista porem, imutável. A Tupla pode conter 0 ou ‘n’ elementos e estes não poderão ser alterados.
+
+- Tupla seria uma lista declarada como uma constante.
+
+1. Não seria possível adicionar, remover, altera elementos.
+2. Toda tupla sera um conjunto de objetos, e estes, também são imutáveis. Assim, se adicionarmos o numero 10 a posição “1” da Tupla, não sera possível atribuir outro valor na posição “1”.
