@@ -720,3 +720,13 @@ Array, não muito utilizado no python.
 
 - Estrutura de dados onde cada elemento esta associado a uma chave que pode ser de qualquer tipo.
 - Cada item do dicionario possui uma chave única. Essa, seria por definição diferente de todas as outras
+
+### ARVORE
+
+- Estrutura de dados dispostas em uma hierarquia. A estrutura de diretórios do nosso computador seria uma arvore.
+
+NORMA GERAL:
+
+1. Raiz – elemento pertencente a o nível um. Toda arvore tera sempre uma única raiz.
+2. no/filho – elemento que foi adicionado a outro item.
+3. Nível – propriedade que indica quantos nos estão acima de um filho.
