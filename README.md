@@ -690,3 +690,14 @@ print(“Fim”)
 2. O primeiro a entrar sempre sera o ultimo elemento da lista.
 
 - Estrutura de dados mutável onde a ordenação natural seria estabelecido pela ordem de entrada. O primeiro item da pilha SEMPRE sera o ultimo adicionado
+
+### ARRAY
+
+- Array seria uma estrutura de dados estática para a manipulação de um numero finito de elemento de um mesmo tipo.
+
+- Array seria constituido por um conjunto de elementos finitos e definidos na sua declaracao.
+
+1. O indice 0 seria o primeiro elemento.
+2. O indice do ultimo elemento seria o “total_de_itens -1”.
+
+Array, não muito utilizado no python.
