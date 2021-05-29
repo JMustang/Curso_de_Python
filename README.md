@@ -656,7 +656,7 @@ while(i<10):
 		continue
 	print(i)
 else:
-	print(“else”
+	print(“else”)
 print(“Fim”)
 ```
 
@@ -667,3 +667,26 @@ print(“Fim”)
 - Estrutura de dados seria qualquer meio utilizado para armazenar e recuperar informações.
 - A lista considerada a principal e a mãe de todas as outras estruturas.
 - Estrutura de dados mutáveis onde a ordenação natural seria estabelecido pela ordem de entrada. O ultimo item de uma lista não ordenada **SEMPRE** sera o ultimo elemento adicionado.
+
+## **Estrutura de dados – Listas, Pilhas, Array, Set**
+
+### Principais estruturas
+
+- LISTA
+- PILHA
+- ARRAY/MATRIZ/VETOR
+- TUPLA
+- SET(grupo)
+- DICIONARIO
+- ARVORE
+
+### PILHA (stack)
+
+- Pilha seria o conjunto de objetos/elementos adicionados um sobre o outro.
+
+**NORMAL GERAL:**
+
+1. O ultimo a entrar sera o primeiro a sair.
+2. O primeiro a entrar sempre sera o ultimo elemento da lista.
+
+- Estrutura de dados mutável onde a ordenação natural seria estabelecido pela ordem de entrada. O primeiro item da pilha SEMPRE sera o ultimo adicionado
