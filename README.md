@@ -695,10 +695,10 @@ print(“Fim”)
 
 - Array seria uma estrutura de dados estática para a manipulação de um numero finito de elemento de um mesmo tipo.
 
-- Array seria constituido por um conjunto de elementos finitos e definidos na sua declaracao.
+- Array seria constituído por um conjunto de elementos finitos e definidos na sua declaração.
 
-1. O indice 0 seria o primeiro elemento.
-2. O indice do ultimo elemento seria o “total_de_itens -1”.
+1. O índice 0 seria o primeiro elemento.
+2. O índice do ultimo elemento seria o “total_de_itens -1”.
 
 Array, não muito utilizado no python.
 
@@ -715,3 +715,8 @@ Array, não muito utilizado no python.
 
 - Estruturas de dados semelhante a uma lista. Um set tem como principio conter uma lista de valores diferentes.
 - Set seria uma lista sem itens repetidos.
+
+### DICIONARIO
+
+- Estrutura de dados onde cada elemento esta associado a uma chave que pode ser de qualquer tipo.
+- Cada item do dicionario possui uma chave única. Essa, seria por definição diferente de todas as outras
