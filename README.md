@@ -730,3 +730,28 @@ NORMA GERAL:
 1. Raiz – elemento pertencente a o nível um. Toda arvore tera sempre uma única raiz.
 2. no/filho – elemento que foi adicionado a outro item.
 3. Nível – propriedade que indica quantos nos estão acima de um filho.
+
+## **Class List I**
+
+### LISTA(list)
+
+- Estrutura de dados mutável onde a ordenação natural seria estabelecida pela ordem de entrada. O ultimo item de uma lista não ordenada SEMPRE sera o ultimo elemento adicionado.
+
+- Lista seria qualquer sequencia de objetos/elementos em qualquer ordem. Todas as estruturas de dados são também listas.
+
+**NORMA GERAL:**
+
+1. Novos itens SEMPRE serão adicionados após o ultimo item.
+
+2. O primeiro item adicionado a lista SEMPRE serão o primeiro elemento da estrutura.
+
+EX:
+
+```py
+# tudo que estiver entre colchetes sera entendido pelo pythin como uma list.
+lista = [1,2,8,5,15,3,6,8,]
+print(lista)
+
+# isso também seria uma list.
+type([‘casa’,1,’23’])
+```
