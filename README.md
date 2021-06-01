@@ -748,10 +748,103 @@ NORMA GERAL:
 EX:
 
 ```py
-# tudo que estiver entre colchetes sera entendido pelo pythin como uma list.
+# tudo que estiver entre colchetes sera entendido pelo python como uma list.
 lista = [1,2,8,5,15,3,6,8,]
 print(lista)
 
 # isso também seria uma list.
 type([‘casa’,1,’23’])
+```
+
+## **Class List II**
+
+- Uma lista e um objeto e cada elemento e um objeto também.
+- Podemos ter em uma lista objetos de tipos diferentes, tanto strings como objetos numéricos.
+
+EX:
+
+```py
+list = [‘casa’,10,”hause”]
+
+# Isso também e uma lista.
+# uma lista com três objetos que também são listas
+list2 = [[],[],[]]
+list3 = [[“a”,”b”,”c”],[1,1,2,3,],[]]
+```
+
+### Estruturas de dados
+
+- Esse capítulo descreve algumas coisas que você já aprendeu em detalhes e adiciona algumas coisas novas também.
+
+**Mais sobre listas**
+
+- O tipo de dado lista tem ainda mais métodos. Aqui estão apresentados todos os métodos de objetos do tipo lista:
+
+1. list.append(x)
+
+- Adiciona um item ao fim da lista. Equivalente a a[len(a):] = [x].
+
+2. list.extend(iterable)
+
+- Prolonga a lista, adicionando no fim todos os elementos do argumento iterable passado como parâmetro. Equivalente a a[len(a):] = iterable.
+
+3. list.insert(i, x)
+
+- Insere um item em uma dada posição. O primeiro argumento é o índice do elemento antes do qual será feita a inserção, assim a.insert(0, x) insere um elemento na frente da lista e a.insert(len(a), x) e equivale a a.append(x).
+
+4. list.remove(x)
+
+- Remove o primeiro item encontrado na lista cujo valor é igual a x. Se não existir valor igual, uma exceção ValueError é levantada.
+
+5. list.pop([i])
+
+- Remove um item em uma dada posição na lista e o retorna. Se nenhum índice é especificado, a.pop() remove e devolve o último item da lista. (Os colchetes ao redor do i na demonstração do método indica que o parâmetro é opcional, e não que é necessário escrever estes colchetes ao chamar o método. Você verá este tipo de notação frequentemente na Biblioteca de Referência Python.)
+  6)list.clear()
+- Remove todos os itens de uma lista. Equivalente a del a[:].
+  list.index(x[, start[, end]])
+  Devolve o índice base-zero do primeiro item cujo valor é igual a x, levantando ValueError se este valor não existe.
+  Os argumentos opcionais start e end são interpretados como nas notações de fatiamento e são usados para limitar a busca para uma subsequência específica da lista. O índice retornado é calculado relativo ao começo da sequência inteira e não referente ao argumento start.
+
+7. list.count(x)
+
+- Devolve o número de vezes em que x aparece na lista.
+  list.sort(\*, key=None, reverse=False)
+  Ordena os itens na lista (os argumentos podem ser usados para personalizar a ordenação, veja a função sorted() para maiores explicações).
+
+8. list.reverse()
+
+- Inverte a ordem dos elementos na lista.
+
+9. list.copy()
+
+- Devolve uma cópia rasa da lista. Equivalente a a[:].
+  Um exemplo que usa a maior parte dos métodos das listas:
+
+```py
+ fruits = ['orange', 'apple', 'pear', 'banana', 'kiwi', 'apple', 'banana']
+ fruits.count('apple')
+2
+
+ fruits.count('tangerine')
+0
+
+ fruits.index('banana')
+3
+
+ fruits.index('banana', 4)  # Find next banana starting a position 4
+6
+
+ fruits.reverse()
+ fruits
+['banana', 'apple', 'kiwi', 'banana', 'pear', 'apple', 'orange']
+ fruits.append('grape')
+ fruits
+
+['banana', 'apple', 'kiwi', 'banana', 'pear', 'apple', 'orange', 'grape']
+ fruits.sort()
+ fruits
+
+['apple', 'apple', 'banana', 'banana', 'grape', 'kiwi', 'orange', 'pear']
+ fruits.pop()
+'pear'
 ```
