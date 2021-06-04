@@ -882,3 +882,87 @@ del(lista[-1])
 print(lista)
 
 ```
+
+## **Iterando listas**
+
+- Iterar, Percorrer todos os itens de uma array.
+
+EX:
+
+```py
+# dessa forma nao funciona.
+lista_nums = [100,200,300,400]
+for item in lista_nums:
+	item += 1000
+	print(item)
+```
+
+EX:
+
+```py
+# Somando um valor a cada item do array.
+lista_nums = [100,200,300,400]
+lista_indice = [0,1,2,3]
+for item in lista_indice:
+	lista_nums [item] += 1000
+	print(lista_nums)
+```
+
+EX:
+
+```py
+# Somando um valor a cada item do array.
+lista_nums = [100,200,300,400,500]
+# usando a função range
+lista_indice = range(5)
+for item in lista_indice:
+	lista_nums [item] += 1000
+	print(lista_nums)
+```
+
+- Enchugando o codigo.
+
+EX:
+
+```py
+# Somando um valor a cada item do array.
+lista_nums = [100,200,300,400,500]
+# usando a função range
+for item in range(5):
+	lista_nums [item] += 1000
+	print(lista_nums)
+```
+
+- usando a função **len()**.
+
+EX:
+
+```py
+# Somando um valor a cada item do array.
+lista_nums = [100,200,300,400,500]
+# usando a função range
+for item in range(len(lista_nums)):
+	lista_nums [item] += 1000
+	print(lista_nums)
+```
+
+- Funcao enumerate.
+- Essa função adiciona um valor numérico a cada valor da lista.
+
+EX:
+
+```py
+l = [‘aaa’,’bbb’,’ccc’,’ddd’]
+list(enumerate(l))
+```
+
+EX:
+
+```py
+# Somando um valor a cada item do array.
+lista_nums = [100,200,300,400,500]
+# usando a função enumerate
+for idx, item in enumerate(lista_nums):
+	lista_nums [idx] += 1000
+	print(lista_nums)
+```
