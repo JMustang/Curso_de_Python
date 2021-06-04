@@ -848,3 +848,37 @@ list3 = [[“a”,”b”,”c”],[1,1,2,3,],[]]
  fruits.pop()
 'pear'
 ```
+
+## **Class List III**
+
+EX:
+
+```py
+lista = [1,2,3,4,5]
+
+# adicionando um elemento novo no final da lista
+
+lista = lista + [6]
+print (lista)
+
+# adicionando um elemento novo ao fim da lista
+
+lista = [0] + lista
+print (lista)
+
+# concatenando duas listas
+
+lista = lista + [7,8,9, 10]
+print (lista)
+
+# função append(), adiciona um novo elemento a lista
+
+lista.append(11)
+print(lista)
+
+# função del() deleta um elemento da lista
+
+del(lista[-1])
+print(lista)
+
+```
