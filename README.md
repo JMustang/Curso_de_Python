@@ -764,7 +764,7 @@ type([‘casa’,1,’23’])
 EX:
 
 ```py
-list = [‘casa’,10,”hause”]
+list = [‘casa’,10,”house”]
 
 # Isso também e uma lista.
 # uma lista com três objetos que também são listas
@@ -920,7 +920,7 @@ for item in lista_indice:
 	print(lista_nums)
 ```
 
-- Enchugando o codigo.
+- Enxugar o código.
 
 EX:
 
@@ -946,7 +946,7 @@ for item in range(len(lista_nums)):
 	print(lista_nums)
 ```
 
-- Funcao enumerate.
+- função enumerate.
 - Essa função adiciona um valor numérico a cada valor da lista.
 
 EX:
@@ -965,4 +965,27 @@ lista_nums = [100,200,300,400,500]
 for idx, item in enumerate(lista_nums):
 	lista_nums [idx] += 1000
 	print(lista_nums)
+```
+
+## **Fatiando listas**
+
+- Slicing do inglês significa fatiar. Podemos fazer cortes em uma lista a fim de obter uma nova lista.
+- Em todas as lista teremos valores positivos e valores negativos.
+- O índices positivos são os que já estávamos trabalhando, os índices negativos deve-se pensar neles com a contagem começando do ultimo elemento da nossa lista, então podemos acessar os índices de uma lista utilizando tanto os índices positivos quanto dos índices negativos
+
+EX:
+
+```py
+lista = ‘python’
+lista [2::2]
+print(lista)
+```
+
+EX:
+
+```py
+# Lista de trás pra frente
+lista = ‘python’
+lista [::-1]
+print(lista)
 ```
