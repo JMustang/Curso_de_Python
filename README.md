@@ -989,3 +989,33 @@ lista = ‘python’
 lista [::-1]
 print(lista)
 ```
+
+## **Incluindo, alterando e excluindo elementos**
+
+EX:
+
+```py
+lista = [‘aa’,‘cc’,‘bb’,]
+print (lista)
+
+# adiciona um elemento no final do array.
+lista.append(‘ee’)
+
+# te da a opção de escolher em qual posição do array nos queremos inserir um elemento, onde o primeiro elemento indica a posição o segundo seria o elemento em si.
+lista.insert(0,’ff’)
+
+# isso nos da a opção de alterar o elemento na posição desejada.
+lista[1] = ‘tt’
+
+# Isso exclui todos os elementos dentro do array.
+lista.clear()
+
+# A função pop(), se não for passado nenhum valor ela exclui o elemento da ultima posição.
+lista.pop()
+
+# Se um valor for adicionado ela excluirá o elemento da posição especificada.
+lista.pop(3)
+
+# A função del() excluirá os elementos especificados como parâmetros.
+del(lista[2;4])
+```
