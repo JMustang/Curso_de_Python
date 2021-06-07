@@ -995,7 +995,7 @@ print(lista)
 EX:
 
 ```py
-lista = [‘aa’,‘cc’,‘bb’,]
+lista = [‘aa’,‘cc’,‘bb’]
 print (lista)
 
 # adiciona um elemento no final do array.
@@ -1017,5 +1017,22 @@ lista.pop()
 lista.pop(3)
 
 # A função del() excluirá os elementos especificados como parâmetros.
-del(lista[2;4])
+del(lista[2:4])
+```
+
+## **Ordenamento de listas**
+
+EX:
+
+```py
+lista = [‘clau’,’mari’,’jao’,’fula’,’cicla’]
+
+# A função reverse() inverte a ordem do array.
+lista.reverse()
+
+# A função sort() ordena o array de forma acendente(ordem alfabética).
+Lista.sort()
+
+# Um exemplo com as duas funções.
+Lista.sort(reverse=True)
 ```
