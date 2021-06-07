@@ -1036,3 +1036,22 @@ Lista.sort()
 # Um exemplo com as duas funções.
 Lista.sort(reverse=True)
 ```
+
+## **Array - quantidade de elementos**
+
+EX:
+
+```py
+lista = [‘jose’,‘clau’,’mari’,’jao’,‘jose’,’fula’,’cicla’]
+
+# A função len() retorna o numero de elementos em um array.
+len(lista)
+
+# A função count() retorna a quantidade de vezes que um elemento se repeti em um array.
+lista.count(‘jose’)
+
+# A função index() retorna a posição do elemento no array.
+# Se ocorrer de ter mais de um mesmo elemento dentro do array
+# A função index() retorna a primeira ocorrência.
+lista.index(‘jose’)
+```
