@@ -1055,3 +1055,24 @@ lista.count(‘jose’)
 # A função index() retorna a primeira ocorrência.
 lista.index(‘jose’)
 ```
+
+## **Tuplas**
+
+- Estruturas que contempla características e funcionalidades de uma lista, porem, sua estrutura e seus elementos são **ReadOnly** (somente leitura).
+- Uma tupla pode conter 0 ou ’n’ elementos de tipos iguais ou distintos.
+- No python uma tupla seria uma lista imutável então podemos pensar que uma tupla seria uma lista que restringe adição, alteração ou remoção de elementos, porem pensar em uma tupla como sendo somente em uma lista imutável acabar por ser um erro ate porque pensar em uma lista e uma tupla, ainda que semelhantes, não são iguais, sendo assim temos que uma tupla tem as mesmas características que fundamentam as listas.
+
+- Tupla seria uma lista declarada como uma contante.
+
+NORMA GERAL:
+
+1. Não seria possível adicionar, remover, alterar elementos.
+2. A estrutura e objeto de uma tupla não podem ser alterados. Assim, se definimos o numero 10 na posição “1” de uma Tupla, não sera possível alterá-lo.
+
+EX:
+
+```py
+t = tuple(“abc”)
+print(t)
+type(t)
+```
