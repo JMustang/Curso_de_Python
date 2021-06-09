@@ -1076,3 +1076,54 @@ t = tuple(“abc”)
 print(t)
 type(t)
 ```
+
+## **Operador IN e NOT IN**
+
+- O operador **IN** seria para verificar se o objeto esta contido.
+- O operador **NOT IN** seria para verificar o oposto do operador **IN**.
+
+EX:
+
+```py
+# lista
+x in […]
+
+# tupla
+x in (…)
+
+# dicionario
+x in {…}
+
+2 in (1,2,3,4,5)
+```
+
+```py
+x = range(1,6)
+if 3 in x:
+	print(“Contido”)
+else:
+	print(“Não esta contido”)
+```
+
+EX:
+
+```py
+# lista
+x not in […]
+
+# tupla
+x not in (…)
+
+# dicionario
+x not in {…}
+
+6 not in (1,2,3,4,5)
+```
+
+```py
+x = range(1,6)
+if 3 not in x:
+	print(“Contido”)
+else:
+	print(“Não esta contido”)
+```
