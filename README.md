@@ -1127,3 +1127,30 @@ if 3 not in x:
 else:
 	print(“Não esta contido”)
 ```
+
+## **Operadores AND, OR e IN**
+
+EX:
+
+```py
+x and y in […]
+x or y in [...]
+```
+
+EX:
+
+```py
+4 and 3 in range (1, 10)
+```
+
+EX:
+
+```py
+4 or 3 in range (1, 10)
+```
+
+EX:
+
+```py
+((1 and 6) or (5 and 6)) in range (1, 10)
+```
