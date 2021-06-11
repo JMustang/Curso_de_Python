@@ -1158,7 +1158,7 @@ EX:
 ## **Strings**
 
 - Conjunto de caracteres.
-- Strings seria qualquer tipo de texto que estiver entre aspas simples ou aspas duplas
+- Strings seria qualquer tipo de texto que estiver entre aspas simples ou aspas duplas.
 
 EX:
 
@@ -1172,4 +1172,28 @@ para strings com varias linhas’’’
 
 “””texto – 3 aspas duplas,
 para strings com varias linhas”””
+```
+
+## **Fatiando strings**
+
+- Para o python toda string seria um conjunto de caracteres imutável, ou seja, não podemos adicionar ou remover uma parte da string.
+- Porem, isso não nos impede de manipularmos de diversas maneiras uma string, inclusive, gerar uma nova string que contenha uma determinada alteração.
+- Importante que saibamos que o python não vai reaproveitar uma string, então, a partir do momento que não estivermos mais utilizando uma determinada string a mesma sera liberada da memoria.
+
+EX:
+
+```py
+s = ‘isso seria uma string’
+
+print(s)
+
+# se quisermos saber qual carácter esta em uma determinada posição, faremos assim.
+
+s[0]
+
+# isso não modifica a string, e sim cria uma outra em outro local da memoria.
+
+# da mesma forma que seria utilizado em um array pode ser usado aqui.
+
+S[5:11]
 ```
