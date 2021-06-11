@@ -1154,3 +1154,22 @@ EX:
 ```py
 ((1 and 6) or (5 and 6)) in range (1, 10)
 ```
+
+## **Strings**
+
+- Conjunto de caracteres.
+- Strings seria qualquer tipo de texto que estiver entre aspas simples ou aspas duplas
+
+EX:
+
+```py
+‘texto – aspas simples’
+
+“texto - aspas duplas”
+
+‘’’texto - 3 aspas simples,
+para strings com varias linhas’’’
+
+“””texto – 3 aspas duplas,
+para strings com varias linhas”””
+```
