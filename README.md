@@ -1197,3 +1197,39 @@ s[0]
 
 S[5:11]
 ```
+
+## **Propriedades das strings**
+
+EX:
+
+```py
+s = “Lista de caracteres”
+# retorna a quantidade de caracteres.
+len(s)
+```
+
+EX:
+
+```py
+# retorna o carácter especificado.
+s[6]
+```
+
+EX:
+
+```py
+# Isso ira separar a string pelo carácter especificado.
+# Nesse caso, espaço em branco.
+s.split(“ ”)
+```
+
+EX:
+
+```py
+# O replace() seria uma função que substituí um carácter ou um conjunto de caracteres por outro objeto de caracteres.
+s.replace()
+
+s = “Lista de caracteres”
+# Nesse caso especificado a string “de” sera substituida pela string ““.
+s.replace(“de”, ““)
+```
