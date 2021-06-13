@@ -1233,3 +1233,25 @@ s = “Lista de caracteres”
 # Nesse caso especificado a string “de” sera substituida pela string ““.
 s.replace(“de”, ““)
 ```
+
+## **Comparando strings**
+
+- O critério usado para comparar duas strings se baseia na tabela ASCI
+
+EX:
+
+```py
+# o carácter “a” minusculo recebe o código 97, enquanto que o carácter “9” recebe o código 57, a comparação abaixo vai ser “True”.
+“a” > “9”
+```
+
+Ex:
+
+```py
+# A função “chr()” ou “ord()” recebe uma letra como parâmetro e retorna o código “ASCI” da mesma.
+# isso retorna “d”.
+chr(100)
+
+# Isso retorna o inverso de “chr()”.
+ord(“d”)
+```
