@@ -1255,3 +1255,34 @@ chr(100)
 # Isso retorna o inverso de “chr()”.
 ord(“d”)
 ```
+
+## **Iterando strings**
+
+EX:
+
+```py
+# Esse exemplo ira imprimir a string ‘s’ letra por letra pulando linha.
+s = ‘Iterando Strings’
+for c in s:
+	print(c)
+```
+
+EX:
+
+```py
+# Esse exemplo, igual ao primeiro mas esse ira por o valor do índice ao lado da string
+s = ‘Iterando string’
+indice = 0
+while indice < len(s):
+	print(indice, s[indice])
+	indice+=1
+```
+
+EX:
+
+```py
+# Esse exemplo, igual ao segundo, ira imprimir o índice e a string mas usando a função “enumerate()”.
+s = ‘Iterando string’
+for k,v in enumerate(‘Iterando string’):
+	print(k,v)
+```
