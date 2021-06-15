@@ -1286,3 +1286,9 @@ s = ‘Iterando string’
 for k,v in enumerate(‘Iterando string’):
 	print(k,v)
 ```
+
+## **Introdução aos Dicionários**
+
+- Dicionário seria um tipo de lista não ordenada onde cada elemento esta associado a uma chave.
+- A diferença da lista para o dicionario, nossa responsabilidade a construção e o desenvolvimento do índice, e também com os dicionários no podemos utilizar como índice, qualquer objeto não mutável, ou seja, nos podemos definir que cada item do nosso dicionario tera uma cadeia de caracteres vinculada, logo, para termos acesso a esses itens basta informa a sequencia de caracteres desejada, da mesma forma temos a possibilidade de associar um numero como índice, ou então, nos podemos definir que alguns elementos terão vinculados um numero, outros de uma string e outros de uma tupla, ou seja, nos podemos definir qualquer objeto como sendo a chave de um elemento.
+- São comumente chamados de estruturas chave valor.
