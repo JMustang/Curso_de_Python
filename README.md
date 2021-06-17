@@ -1305,3 +1305,52 @@ d1 [‘ccc’] = 3000
 # Isso imprime um dicionario com três elementos.
 print (d1)
 ```
+
+## **Funções dos dicionários**
+
+EX:
+
+```py
+tel = {
+	1234567890: “bibi”,
+	1987654321: “bobo”,
+	1122334455: “bu-bu”,
+	1232343454: “da-ad”
+	}
+tel2 = {99999999: “teu”, 555555555: “beu”}
+t = (10,10,10)
+print (tel)
+print (tel2)
+
+# Retorna o numero de elementos
+len(del)
+
+# Deleta um elemento do dicionario
+del(tel[1234567890])
+
+# Retorna a lista de chaves do dicionario
+tel.keys()
+
+# Retorna os valores do dicionario
+tel.values()
+
+# retorna o valor associado a chave especificada
+tel[1987654321]
+
+# retorna o valor associado a chave especificada
+tel.get(1987654321)
+
+# Essa função retorna um elemento aleatoriamente e remove-o do dicionario
+tel.popitem()
+
+# Busca a chave especificada dentro do dicionario e retorna um valor booleano
+1987654321 in tel
+
+# Adiciona os valores de um dicionario a outro
+# Ira adicionar todos os elementos de tel2 em tel
+tel.update(tel2)
+
+
+# os caracteres “junior” serão relacionados a tupla tel
+tel[t] = “junior”
+```
