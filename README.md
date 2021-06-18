@@ -1354,3 +1354,17 @@ tel.update(tel2)
 # os caracteres “junior” serão relacionados a tupla tel
 tel[t] = “junior”
 ```
+
+## **Introdução as funções**
+
+- Funções, são blocos de instruções que pode ser usado em qualquer parte do nosso código, toda função por definição possuí nome como também seria capas de receber uma lista de parâmetros e pode retornar um valor.
+- Nem toda função retornara um parâmetro, da mesma forma nem toda função retornara um valor, porem a implementação sempre seguira uma mesma estrutura.
+- O que define uma função seria sua capacidade de retorna valores.
+  EX:
+
+```py
+# toda função em python deve ser precedido da palavra-chave “def”(de definição)
+def minha_func():
+	print (“holla dev”)
+minha_func()
+```
