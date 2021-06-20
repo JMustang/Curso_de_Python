@@ -1381,3 +1381,16 @@ def soma(a, b):
 	print (“O total da soma de a mais b: “, total)
 soma(10,50)
 ```
+
+## **Parâmetro default**
+
+- Parâmetros default ou parâmetros pre definidos, são parâmetros que recebem o valor na implementação da função, ou seja, o param entro seria atribuído na função dentro dos parêntesis, os parâmetros default funcionam da mesma forma das inicializações de variáveis, definimos um valor default no momento da declaração, esse recurso faz como que o valor seja omitido quando a função for invocada.
+
+EX:
+
+```py
+def login(user=”root”, senha”123”):
+	print(“Usuario: “,user)
+	print(“senha: “,senha)
+login()
+```
