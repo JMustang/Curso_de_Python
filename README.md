@@ -1368,3 +1368,16 @@ def minha_func():
 	print (“holla dev”)
 minha_func()
 ```
+
+## **Parâmetro de funções**
+
+- **Parâmetro** seria uma variável declarada entre os parênteses de uma função.
+
+EX:
+
+```py
+def soma(a, b):
+	total = a + b
+	print (“O total da soma de a mais b: “, total)
+soma(10,50)
+```
