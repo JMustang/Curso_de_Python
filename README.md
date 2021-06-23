@@ -1394,3 +1394,23 @@ def login(user=”root”, senha”123”):
 	print(“senha: “,senha)
 login()
 ```
+
+## **Argumentos nomeados vs argumentos posicionais**
+
+- O python permite que invoquemos uma função passando os parâmetros de forma posicionada ou de forma nomeada.
+- Argumentos posicionais seria o nome utilizado na passagem de valores onde cada valor estará na ordem implementado na função,
+  ou seja, os valores devem estar na mesma ordem que os parâmetros são passados na função.
+- Argumentos nomeados, seria o recurso que permite a passagem de valores pela associação chave valor, e assim, os mesmo não precisa estar em uma ordem pre estabelecida.
+  EX:
+
+```py
+def func(param1, param2, param3):
+	pass
+```
+
+```py
+de dados_pessoais(nome, sobrenome, idade, sexo):
+	print(“Nome: {}\nSobrenome: {}\nIdade: {}\nSexo: {}”
+		.format(nome, sobrenome, idade, sexo))
+dados_pessoais(“Alice”, “Carvalho”, 9, false)
+```
