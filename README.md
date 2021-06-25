@@ -1414,3 +1414,23 @@ de dados_pessoais(nome, sobrenome, idade, sexo):
 		.format(nome, sobrenome, idade, sexo))
 dados_pessoais(“Alice”, “Carvalho”, 9, false)
 ```
+
+## **Retorno de valores por função**
+
+- Toda função seria capaz de retorna valor.
+- A função **return** seria utilizada tanto para retorna valores como para finalizar a função.
+
+```py
+def soma():
+	return 10
+soma()
+# Esse programa retornara o valor 10 que foi o valor retornado na função soma()
+print(soma())
+```
+
+```py
+def mult(x,y)
+	num = x*y
+	return num
+print(mult(10,20))
+```
