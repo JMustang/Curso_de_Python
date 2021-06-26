@@ -1434,3 +1434,14 @@ def mult(x,y)
 	return num
 print(mult(10,20))
 ```
+
+## **Retorno de valores múltiplos**
+
+- O retorno de múltiplos valores em python seria consequência de definição de linguagem, e não uma implementação propriamente dita.
+- O retorno de valores, um conceito simples porem, faz grande diferença no desenvolvimento. Isso porque, não seria necessário criar explicitamente uma lista, adicionar os valores a serem retornados e por fim retornar a mesma.
+
+```py
+def func():
+	return 20,30
+x,y = func()
+```
