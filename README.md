@@ -1445,3 +1445,35 @@ def func():
 	return 20,30
 x,y = func()
 ```
+
+### Funcao variatica
+
+- Sao funcoes que podem receber uma quantidade arbitraria de parametros
+  \_ Sao funcoes capaz receber quantidades variadas de parametros, ou seja, funcoes que podem receber 0 ou n quantidade de parametros.
+- Uma funcao seria capaz de receber quantidasde arbitrarias de duas maneiras.
+
+1. A primeira, quando nos passamos uma lista de valores, ou seja, nos enviamos os valores de forma posicional.
+2. A segunda maneira seria o envio de argumentos associativos. ou seja argumentos nomeados, quando o nome do párametro esta associado ao seu valor, logo, temos que essa forma de trabalhar resulta em um dicionario.
+
+- toda funcao que ira receber quantidade arbitrarias de parametros devera utilizar uma notacao especificada pelo python.
+
+EX:
+
+```py
+def func (*args, **kwargs):
+	pass
+```
+
+EX:
+
+```py
+def lista_de_argumentos(*lista):
+	print(lista)
+lista_de_argumentos(1,2,3,4,5,6)
+
+def lista_de_argumentos_associados(**dicionario):
+	print(dicionario)
+
+	lista_de_argumentos_associados(a=1, b=2, c=3, d=4)
+	lista_de_argumentos_associados(um=1, dois=2, tres=3, quatro=4)
+```
