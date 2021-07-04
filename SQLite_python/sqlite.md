@@ -11,3 +11,14 @@
 ## Sistema gerenciador de banco de dados relacional (**SGBDR**)
 
 - Um SGBDR e um sistema especializado em gerenciar uma grande quantidade de informacoes, bem como, o mesmo tem a responsabilidade de adiministra as diversas transacoes realizadas em um mesmo tempo, ou seja, e responsabilidade de um SGBDR estabelecer a ordem de acesso a um registro ou a uma tabela, como tambem, gerenciar quem tem a prioridade a realizar uma determinada transacao como tambem, compete a um SGBDR bloquear um registro ou entao uma tabela quando um cliente assim solicitar, como tambem compete a o SGBDR negar acesso a outros clientes quando um detreminado cliente estiver alterando um determinado registro.
+
+## SQL
+
+### Structured Query Language
+
+- O SQL e uma linguagem universal para manipulacao de banco de dados relacionais. A linguagem hoje e um padrao,
+  no entanto, cada banco de dados implementa funcoes nativas.
+
+1. Linguagem declarativa.
+2. semelhante a um texto em ingles.
+3. Trabalha com um conjunto de registros e nao com um unico.
