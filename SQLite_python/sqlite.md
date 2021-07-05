@@ -22,3 +22,19 @@
 1. Linguagem declarativa.
 2. semelhante a um texto em ingles.
 3. Trabalha com um conjunto de registros e nao com um unico.
+
+## Tabelas
+
+- Estrutura formadas por linhas e colunas.
+- A tabela e a estrutura fundamental dos bancos de dados relacionais,
+  todas as informacoes vai estar imbutido dentro de uma tabela, cada tabela vai possuir um conjunto de atributos
+  que chamamos de colunas, entao, um conjunto de colunas forma uma tabela.
+- Toda tabela dentro de um banco de dados relacionais vai possuir um nome que a distingue e a torna unica.
+
+EX:
+
+```sql
+create table if not exists nome_tabela(
+    nome_coluna1 tipo_coluna,
+    nome_coluna2 tipo_coluna);
+```
