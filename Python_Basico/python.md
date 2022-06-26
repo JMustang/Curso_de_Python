@@ -507,9 +507,9 @@ var = 10 if (true) else 20
 
 ## **Iteração**
 
-- Iteração, laços condicionais, looping seria o processo de repetição onde um bloco de instrução sera executado enquanto uma condição for atendida.
+- Iteração, laços condicionais, looping é o processo de repetição onde um bloco de instrução sera executado enquanto uma condição for atendida.
 - Os laços condicionais fazem parte do tópico de controle de fluxo no estudo da linguagem de programação.
-- Seria uma forma de fazer que um bloco de instrução seja repetido enquanto uma condição for verdadeira.
+- É uma forma de fazer que um bloco de instrução seja repetido enquanto uma condição for verdadeira.
 
 EX:
 
@@ -664,7 +664,7 @@ print(“Fim”)
 
 ### Introdução a estrutura de dados.
 
-- Estrutura de dados seria qualquer meio utilizado para armazenar e recuperar informações.
+- Estrutura de dados é qualquer meio utilizado para armazenar e recuperar informações.
 - A lista considerada a principal e a mãe de todas as outras estruturas.
 - Estrutura de dados mutáveis onde a ordenação natural seria estabelecido pela ordem de entrada. O ultimo item de uma lista não ordenada **SEMPRE** sera o ultimo elemento adicionado.
 
@@ -682,7 +682,7 @@ print(“Fim”)
 
 ### PILHA (stack)
 
-- Pilha seria o conjunto de objetos/elementos adicionados um sobre o outro.
+- Pilha é o conjunto de objetos/elementos adicionados um sobre o outro.
 
 **NORMAL GERAL:**
 
@@ -693,12 +693,12 @@ print(“Fim”)
 
 ### ARRAY
 
-- Array seria uma estrutura de dados estática para a manipulação de um numero finito de elemento de um mesmo tipo.
+- Array é uma estrutura de dados estática para a manipulação de um numero finito de elemento de um mesmo tipo.
 
-- Array seria constituído por um conjunto de elementos finitos e definidos na sua declaração.
+- Array é constituído por um conjunto de elementos finitos e definidos na sua declaração.
 
-1. O índice 0 seria o primeiro elemento.
-2. O índice do ultimo elemento seria o “total_de_itens -1”.
+1. O índice 0 é o primeiro elemento.
+2. O índice do ultimo elemento é o “total_de_itens -1”.
 
 Array, não muito utilizado no python.
 
@@ -706,15 +706,15 @@ Array, não muito utilizado no python.
 
 - Estrutura de dados que possui todas as características de uma lista porem, imutável. A Tupla pode conter 0 ou ‘n’ elementos e estes não poderão ser alterados.
 
-- Tupla seria uma lista declarada como uma constante.
+- Tupla é uma lista declarada como uma constante.
 
-1. Não seria possível adicionar, remover, altera elementos.
-2. Toda tupla sera um conjunto de objetos, e estes, também são imutáveis. Assim, se adicionarmos o numero 10 a posição “1” da Tupla, não sera possível atribuir outro valor na posição “1”.
+1. Não é possível adicionar, remover, altera elementos.
+2. Toda tupla é um conjunto de objetos, e estes, também são imutáveis. Assim, se adicionarmos o numero 10 a posição “1” da Tupla, não sera possível atribuir outro valor na posição “1”.
 
 ### SET(conjunto)
 
 - Estruturas de dados semelhante a uma lista. Um set tem como principio conter uma lista de valores diferentes.
-- Set seria uma lista sem itens repetidos.
+- Set é uma lista sem itens repetidos.
 
 ### DICIONARIO
 
@@ -752,13 +752,13 @@ EX:
 lista = [1,2,8,5,15,3,6,8,]
 print(lista)
 
-# isso também seria uma list.
+# isso também é uma list.
 type([‘casa’,1,’23’])
 ```
 
 ## **Class List II**
 
-- Uma lista e um objeto e cada elemento e um objeto também.
+- Uma lista é um objeto e cada elemento é um objeto também.
 - Podemos ter em uma lista objetos de tipos diferentes, tanto strings como objetos numéricos.
 
 EX:
@@ -1079,7 +1079,7 @@ type(t)
 
 ## **Operador IN e NOT IN**
 
-- O operador **IN** seria para verificar se o objeto esta contido.
+- O operador **IN** é para verificar se o objeto esta contido.
 - O operador **NOT IN** seria para verificar o oposto do operador **IN**.
 
 EX:
@@ -1158,7 +1158,7 @@ EX:
 ## **Strings**
 
 - Conjunto de caracteres.
-- Strings seria qualquer tipo de texto que estiver entre aspas simples ou aspas duplas.
+- Strings é qualquer tipo de texto que estiver entre aspas simples ou aspas duplas.
 
 EX:
 
@@ -1176,14 +1176,14 @@ para strings com varias linhas”””
 
 ## **Fatiando strings**
 
-- Para o python toda string seria um conjunto de caracteres imutável, ou seja, não podemos adicionar ou remover uma parte da string.
+- Para o python toda string é um conjunto de caracteres imutável, ou seja, não podemos adicionar ou remover uma parte da string.
 - Porem, isso não nos impede de manipularmos de diversas maneiras uma string, inclusive, gerar uma nova string que contenha uma determinada alteração.
 - Importante que saibamos que o python não vai reaproveitar uma string, então, a partir do momento que não estivermos mais utilizando uma determinada string a mesma sera liberada da memoria.
 
 EX:
 
 ```py
-s = ‘isso seria uma string’
+s = ‘isso é uma string’
 
 print(s)
 
@@ -1193,7 +1193,7 @@ s[0]
 
 # isso não modifica a string, e sim cria uma outra em outro local da memoria.
 
-# da mesma forma que seria utilizado em um array pode ser usado aqui.
+# da mesma forma que é utilizado em um array pode ser usado aqui.
 
 S[5:11]
 ```
@@ -1448,14 +1448,14 @@ x,y = func()
 
 ### Funcao variatica
 
-- Sao funcoes que podem receber uma quantidade arbitraria de parametros
-  \_ Sao funcoes capaz receber quantidades variadas de parametros, ou seja, funcoes que podem receber 0 ou n quantidade de parametros.
-- Uma funcao seria capaz de receber quantidasde arbitrarias de duas maneiras.
+- São funções que podem receber uma quantidade arbitraria de parametros
+  \_ São funções capaz receber quantidades variadas de parametros, ou seja, funções que podem receber 0 ou n quantidade de parametros.
+- Uma função é capaz de receber quantidasde arbitrarias de duas maneiras.
 
 1. A primeira, quando nos passamos uma lista de valores, ou seja, nos enviamos os valores de forma posicional.
-2. A segunda maneira seria o envio de argumentos associativos. ou seja argumentos nomeados, quando o nome do párametro esta associado ao seu valor, logo, temos que essa forma de trabalhar resulta em um dicionario.
+2. A segunda maneira é o envio de argumentos associativos. ou seja argumentos nomeados, quando o nome do párametro esta associado ao seu valor, logo, temos que essa forma de trabalhar resulta em um dicionario.
 
-- toda funcao que ira receber quantidade arbitrarias de parametros devera utilizar uma notacao especificada pelo python.
+- toda função que ira receber quantidade arbitrarias de parametros devera utilizar uma notação especificada pelo python.
 
 EX:
 
