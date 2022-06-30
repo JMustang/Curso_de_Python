@@ -103,7 +103,7 @@ EX:
 
 ## **Funções/métodos**
 
-- letras menus culas.
+- letras menusculas.
 - nomes compostos unidos por \_ underline
 
 EX:
