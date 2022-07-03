@@ -21,8 +21,8 @@ print("parâmetros")
 
 ## **Variaveis.**
 
-- O que e uma variável?
-- Variável e um local na memoria que nos reservamos para armazenar uma informação (um valor).
+- O que é uma variável?
+- Variável é um local na memoria que nos reservamos para armazenar uma informação (um valor).
 - em python toda toda variável que criarmos \*tera um tipo implícito atribuído a ela.
 
 - Características de variáveis
@@ -142,7 +142,7 @@ EX:
 
 ## **Concatenar dados**
 
-- Concatenar seria juntar dois tipos de dados diferentes.
+- Concatenar é juntar dois tipos de dados diferentes.
 - Para concatenar dados em python pode ser feito
   com o sinal de "+" ou com uma ",".
 
@@ -173,40 +173,40 @@ print("Ola ", login)
 ## **Operações matemáticas**
 
 - Trabalhar com matemática no python não poderia ser mais simples.
-- A o longo dos anos a linguagem python tem sido a queridinha dos cientistas.
+- Ao longo dos anos a linguagem python tem sido a queridinha dos cientistas.
 
 Somar:
 
 ```py
-somar = 10 +10
+somar = 10 + 10
 print(somar)
 ```
 
 subtrair:
 
 ```py
-subtrair = 10 -10
+subtrair = 10 - 10
 print(subtrair)
 ```
 
 multiplicar :
 
 ```py
-multiplicar= 10 *10
+multiplicar= 10 * 10
 print(multiplicar)
 ```
 
 dividir:
 
 ```py
-dividir = 10 /10
+dividir = 10 / 10
 print(dividir)
 ```
 
 ## **Modulo de divisão**
 
 - como obter o modulo de uma divisão?(o resto da divisão)
-- Para esses casos, temos um operador para nos auxiliar.
+- Nesses casos, temos um operador para nos auxiliar.
 - Toda vez que precisarmos obter o resto da divisão vamos utilizar o sinal de “%” porcentagem.
 
 EX:
@@ -218,7 +218,7 @@ print(resto)
 
 ## **Potenciação e radiciação**
 
-- Não seria necessário um loop para saber a potencia de um numero,
+- Não é necessário um loop para saber a potencia de um numero,
   pois o python trás nativamente esse recurso, isso que faz essa linguagem se destacar dentre
   outras linguagens, então se queremos saber o quadrado de um numero basta
   informar o numero e usar o operador de potenciação.
@@ -230,7 +230,7 @@ EX:
 5**2
 ```
 
-“\*\*” asterisco, asterisco seria mais um operador composto que utilizamos para obter a potencia de um numero.
+“\*\*” asterisco, asterisco é mais um operador composto que utilizamos para obter a potencia de um numero.
 
 ## **Operadores relacionais**
 
@@ -259,7 +259,7 @@ EX:
 # true
 ```
 
-## **Tomada de decisoes**
+## **Tomada de decisões**
 
 - Utilizando as tomadas de decisões para altera o
   fluxo do programa.
@@ -314,7 +314,7 @@ elif(false)
 # uma variável pode ter vários valores
 # assim podemos testar múltiplas vezes a mesma variável
 # ou seja, seria o mesmo de ter varias estruturas “if”
-# porem elas estao agrupadas de uma forma diferente
+# porem elas estão agrupadas de uma forma diferente
 
 switch(valor)
 	caso 1: facaIsso()
@@ -332,7 +332,7 @@ switch(valor)
 
 - Existem quatro operadores relacionais.
 - com eles podemos fazer qualquer comparativo
-  então toda vez que for necessário comparar dois valores
+  então, toda vez que for necessário comparar dois valores
   basta usar um desses quatro operadores.
 
 ```py
@@ -342,7 +342,7 @@ switch(valor)
 <= #menor ou igual que
 ```
 
-- um exemplo pratico seria.
+- um exemplo pratico.
 
 ```py
 idade = int(input(‘informe sua idade’))
@@ -357,7 +357,7 @@ idade = int(input(‘informe sua idade’))
 ## **Operadores lógicos.**
 
 - A forma mais fácil e talvez a mais logica de testarmos
-  varias condições a o mesmo tempo seria usando instruções “if”
+  varias condições a o mesmo tempo é usando instruções “if”
   dentro de outras instruções “if” porem instruções “if” aninhadas nem sempre atendem as nossas necessidades e pode nos obrigar a duplicar código, sem contar e a legibilidade do código fica comprometida, existe a necessidade de simplificarmos as condições
   e uma forma de fazermos isso seria utilizando os operadores lógicos.
   A principio seria bastante simples, porem quando temos uma situação que temos que usar vários operadores uma expressão pode acabar bastante complexa, temos que buscar sempre a melhor forma de usar os
