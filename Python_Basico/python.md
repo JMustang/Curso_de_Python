@@ -300,8 +300,8 @@ else
 	facaAquilo()
 
 # Outra estrutura de seleção dupla.
-# Nesse caso o programa ira testa se a primeira condição e verdadeira
-# se não for o programa ira pular para a segunda condição e
+# Nesse caso o programa vai testa se a primeira condição e verdadeira
+# se não for, o programa vai pular para a segunda condição e
 # testa a segunda.
 
 
@@ -324,8 +324,8 @@ switch(valor)
 
 ## **Depuração**
 
-- Oque seria depuração?
-- Basicamente seria uma forma de executarmos um programar e acompanharmos a execução linha por linha a procura de bugs.
+- Oque é depuração?
+- Basicamente, é uma forma de executarmos um programar e acompanharmos a execução linha por linha a procura de bugs.
 - Por vezes empregado no intuito de descobrir erros, em outras, com a finalidade de entender o funcionamento.
 
 ## **Operações relacionais compostas**
@@ -342,7 +342,7 @@ switch(valor)
 <= #menor ou igual que
 ```
 
-- um exemplo pratico.
+- um exemplo prático.
 
 ```py
 idade = int(input(‘informe sua idade’))
