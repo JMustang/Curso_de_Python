@@ -15,15 +15,15 @@ print("parâmetros")
 - Como inserir comentários no meio do código?
 
 ```py
-# isso e um comentario.
-# não sera interpretado pelo copilador.
+# isso é um comentario.
+# não vai ser interpretado pelo copilador.
 ```
 
-## **Variaveis.**
+## **Variáveis.**
 
 - O que é uma variável?
 - Variável é um local na memoria que nos reservamos para armazenar uma informação (um valor).
-- em python toda toda variável que criarmos \*tera um tipo implícito atribuído a ela.
+- em python toda variável que criarmos \*tera um tipo implícito atribuído a ela.
 
 - Características de variáveis
 
@@ -372,7 +372,7 @@ idade = int(input(‘informe sua idade’))
 # in – esta contido
 # not in – não esta contido
 
-# exemplo pratico
+# exemplo prático 
 
 2<4 and 2==4
 
@@ -782,7 +782,7 @@ list3 = [[“a”,”b”,”c”],[1,1,2,3,],[]]
 
 1. list.append(x)
 
-- Adiciona um item ao fim da lista. Equivalente a a[len(a):] = [x].
+- Adiciona um ítem ao fim da lista. Equivalente a a[len(a):] = [x].
 
 2. list.extend(iterable)
 
@@ -798,7 +798,7 @@ list3 = [[“a”,”b”,”c”],[1,1,2,3,],[]]
 
 5. list.pop([i])
 
-- Remove um item em uma dada posição na lista e o retorna. Se nenhum índice é especificado, a.pop() remove e devolve o último item da lista. (Os colchetes ao redor do i na demonstração do método indica que o parâmetro é opcional, e não que é necessário escrever estes colchetes ao chamar o método. Você verá este tipo de notação frequentemente na Biblioteca de Referência Python.)
+- Remove um ítem em uma dada posição na lista e o retorna. Se nenhum índice é especificado, a.pop() remove e devolve o último item da lista. (Os colchetes ao redor do i na demonstração do método indica que o parâmetro é opcional, e não que é necessário escrever estes colchetes ao chamar o método. Você verá este tipo de notação frequentemente na Biblioteca de Referência Python.)
   6)list.clear()
 - Remove todos os itens de uma lista. Equivalente a del a[:].
   list.index(x[, start[, end]])
@@ -809,7 +809,7 @@ list3 = [[“a”,”b”,”c”],[1,1,2,3,],[]]
 
 - Devolve o número de vezes em que x aparece na lista.
   list.sort(\*, key=None, reverse=False)
-  Ordena os itens na lista (os argumentos podem ser usados para personalizar a ordenação, veja a função sorted() para maiores explicações).
+  Ordena os ítens na lista (os argumentos podem ser usados para personalizar a ordenação, veja a função sorted() para maiores explicações).
 
 8. list.reverse()
 
@@ -1080,7 +1080,7 @@ type(t)
 ## **Operador IN e NOT IN**
 
 - O operador **IN** é para verificar se o objeto esta contido.
-- O operador **NOT IN** seria para verificar o oposto do operador **IN**.
+- O operador **NOT IN** serve para verificar o oposto do operador **IN**.
 
 EX:
 
@@ -1226,7 +1226,7 @@ s.split(“ ”)
 EX:
 
 ```py
-# O replace() seria uma função que substituí um carácter ou um conjunto de caracteres por outro objeto de caracteres.
+# O replace() é uma função que substituí um carácter ou um conjunto de caracteres por outro objeto de caracteres.
 s.replace()
 
 s = “Lista de caracteres”
@@ -1270,7 +1270,7 @@ for c in s:
 EX:
 
 ```py
-# Esse exemplo, igual ao primeiro mas esse ira por o valor do índice ao lado da string
+# Esse exemplo é igual ao primeiro mas esse ira por o valor do índice ao lado da string
 s = ‘Iterando string’
 indice = 0
 while indice < len(s):
@@ -1281,7 +1281,7 @@ while indice < len(s):
 EX:
 
 ```py
-# Esse exemplo, igual ao segundo, ira imprimir o índice e a string mas usando a função “enumerate()”.
+# Esse exemplo é igual ao segundo, ira imprimir o índice e a string mas usando a função “enumerate()”.
 s = ‘Iterando string’
 for k,v in enumerate(‘Iterando string’):
 	print(k,v)
@@ -1289,7 +1289,7 @@ for k,v in enumerate(‘Iterando string’):
 
 ## **Introdução aos Dicionários**
 
-- Dicionário seria um tipo de lista não ordenada onde cada elemento esta associado a uma chave.
+- Dicionário é um tipo de lista não ordenada onde cada elemento esta associado a uma chave.
 - A diferença da lista para o dicionario, nossa responsabilidade a construção e o desenvolvimento do índice, e também com os dicionários no podemos utilizar como índice, qualquer objeto não mutável, ou seja, nos podemos definir que cada item do nosso dicionario tera uma cadeia de caracteres vinculada, logo, para termos acesso a esses itens basta informa a sequencia de caracteres desejada, da mesma forma temos a possibilidade de associar um numero como índice, ou então, nos podemos definir que alguns elementos terão vinculados um numero, outros de uma string e outros de uma tupla, ou seja, nos podemos definir qualquer objeto como sendo a chave de um elemento.
 - São comumente chamados de estruturas chave valor.
 
