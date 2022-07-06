@@ -1446,10 +1446,10 @@ def func():
 x,y = func()
 ```
 
-### Funcao variatica
+### Função variaticas
 
-- São funções que podem receber uma quantidade arbitraria de parametros
-  \_ São funções capaz receber quantidades variadas de parametros, ou seja, funções que podem receber 0 ou n quantidade de parametros.
+- São funções que podem receber uma quantidade arbitraria de parâmetros
+  \_ São funções capaz receber quantidades variadas de parâmetros, ou seja, funções que podem receber 0 ou n quantidade de parâmetros.
 - Uma função é capaz de receber quantidasde arbitrarias de duas maneiras.
 
 1. A primeira, quando nos passamos uma lista de valores, ou seja, nos enviamos os valores de forma posicional.
